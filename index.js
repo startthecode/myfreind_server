@@ -49,9 +49,9 @@ server.use(
 );
 
 // static file path
-// let __fileName = fileURLToPath(import.meta.url);
-// let __dirname = dirname(__fileName);
-// server.use(Express.static(join(__dirname, "/")));
+let __fileName = fileURLToPath(import.meta.url);
+let __dirname = dirname(__fileName);
+server.use(Express.static(join(__dirname, "/")));
 
 // initalize possport
 passportLoginInit(server);
