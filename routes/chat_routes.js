@@ -5,7 +5,7 @@ import {
   useGetPersonalChats,
   useGetUnseenConversationsCount,
   useSendMessage,
-} from "../controller/Chat_controller.js";
+} from "../controller/chat_controller.js";
 
 let routes = Express.Router();
 export let chatRoutes = routes
