@@ -1,4 +1,3 @@
-import { async } from "regenerator-runtime";
 import {
   chngeAccountPrivacy,
   getAccountPrivacy,
